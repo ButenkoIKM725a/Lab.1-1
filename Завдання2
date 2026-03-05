@@ -1,0 +1,18 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    int number = 100;
+
+    cout << "Трицифрові числа, що діляться на 9:" << endl;
+
+    while (number <= 999) {
+        if (number % 9 == 0) {
+            cout << number << ", ";
+        }
+        number++; 
+    }
+    cout << endl;
+    return 0;
+}
